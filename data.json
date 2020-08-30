@@ -1,0 +1,14 @@
+{
+    "98:09:CF:65:26:0D": {
+        "active_picture_path": "pictures/josh.jpg",
+        "inactive_picture_path": "pictures/darkened/josh.jpg"
+    },
+    "BC:FF:EB:40:79:AD": {
+        "active_picture_path": "pictures/james.jpg",
+        "inactive_picture_path": "pictures/darkened/james.jpg"
+    },
+    "00:9D:6B:47:B7:A7": {
+        "active_picture_path": "pictures/tori.jpg",
+        "inactive_picture_path": "pictures/darkened/tori.jpg"
+    }
+}
