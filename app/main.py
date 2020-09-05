@@ -80,12 +80,14 @@ class PicturesApp(App):
         # the root is created in pictures.kv
         root = self.root
 
-        with open('data.json', 'r') as json_file:
+        with open('./app/data.json', 'r') as json_file:
             data = json.load(json_file)
 
         picture_count = len(data.keys())
 
-        base_left = 225
+        width, height = Window.size
+
+        base_left = 20
         base_bottom = 250
 
         # get any files into pictures directory
